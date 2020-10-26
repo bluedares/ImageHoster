@@ -12,8 +12,7 @@ public class CommentRepository {
     private EntityManagerFactory emf;
 
     //The method receives the Comment object to be persisted in the database
-    //Creates an instance of EntityManager
-    //Starts a transaction
+    //Creates an instance of EntityManager - Starts a transaction
     //The transaction is committed if it is successful
     //The transaction is rolled back in case of unsuccessful transaction
     public Comment insertComment(Comment newComment) {
